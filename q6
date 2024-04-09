@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>income Type</title>
+</head>
+<body>
+
+<h2>Income Type</h2>
+
+<form action="#" method="post">
+    <label for="incometype">Type :</label>
+    <input type="radio" name="incometype" id="salaried">salaried
+    <input type="radio" name="incometype" id="own business">own business
+    <br><br>
+    <input type="submit">
+</form>
+
+</body>
+</html>
