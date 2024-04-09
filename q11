@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form element</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action="#" name="enrollmentForm" method="post">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" placeholder="Enter your First Name" id="firstname">
+        <br> <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" placeholder="Enter your Last Name" id="lastname">
+        <br> <br>
+        <label for="email">Email</label>
+        <input type ="email" name="email" placeholder="enter your email" id="email"/>
+        <br><br>
+        <label for="password">Password</label>
+        <input type ="password" name="password"placeholder="enter your password" id="password"/>
+        <br><br>
+        <label for="dob">DOB</label>
+        <input type="date">
+        <br><br>
+        <label for=gender>Gender</label>
+        <input type="radio" id="male" name="gender" value="male"> Male 
+        <input type="radio" id="female" name="gender" value="female"> Female 
+        <input type="radio" id="others" name="gender" value="others"> Others
+        <br><br>
+        <label for="contact-no">Contatct number</label>
+        <input type="number" name="contact-no" id="contact-no" placeholder="Enter your contact number">
+        <br><br>
+        <input type="submit">
+    </form>
+      
+</body> 
+</html>
